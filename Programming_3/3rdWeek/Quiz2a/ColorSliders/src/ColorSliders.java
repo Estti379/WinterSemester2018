@@ -27,8 +27,6 @@ public class ColorSliders {
                 F.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
                 // ADD TOP PANEL
-
-
                 JPanel    P1    =    new JPanel();
 
                 JPanel    P2    =    new JPanel();
