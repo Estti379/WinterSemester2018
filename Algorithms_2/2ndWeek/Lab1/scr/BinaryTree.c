@@ -15,10 +15,12 @@ struct node *insert_node(struct node *r, char data) {
         r->data = data;
         r->left = NULL;
         r->right = NULL;
-    } else if (data <= r->data) {
+    } else if (data < r->data) {
         r->left = insert_node(r->left, data);
-    } else {
+    } else if (data > r->data) {
         r->right = insert_node(r->right, data);
+    } else if (data == r->data) {
+        /* enpty */
     }
     return r;
 }
