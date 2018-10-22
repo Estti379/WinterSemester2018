@@ -23,6 +23,7 @@ public class Converter {
                 JTextField  t2   =   new JTextField(20);
 
 
+
                 // SET TEXT ALIGNMENT 2 AND BORDER FOR t1
                 t1.setBorder(BorderFactory.createTitledBorder( null , "euros", TitledBorder.CENTER, TitledBorder.CENTER));
                 t1.setHorizontalAlignment(JTextField.RIGHT);
