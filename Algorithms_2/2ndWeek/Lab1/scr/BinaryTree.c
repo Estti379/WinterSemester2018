@@ -85,3 +85,8 @@ void print_tree_diagram(struct node *r, int l) {
     printf("%c\n", r->data);
     print_tree_diagram(r->left, l+1);
 }
+
+/* Delete a node with a data at or after r */
+struct node *delete_node(struct node *r, char data) {
+
+}

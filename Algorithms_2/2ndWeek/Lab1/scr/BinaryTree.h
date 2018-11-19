@@ -29,3 +29,14 @@ struct node *max(struct node *r);
 void print_tree_inorder(struct node *r);
 /* Tree diagram output (left to right) of tree with root r and level l */
 void print_tree_diagram(struct node *r, int l);
+
+/* Delete a node with a data at or after r */
+struct node *delete_node(struct node *r, char data);
+/* Search for the inorder predecessor of a given node n in r */
+struct node *pred(struct node *r, struct node *node);
+/* Search for the inorder sucessor of a given node n in r */
+struct node *succ(struct node *r, struct node *node);
+/* Preorder traversal and output of tree with root r */
+void print_tree_preorder(struct node *r);
+/* Postorder traversal and output of tree with root r */
+void print_tree_postorder(struct node *r);
