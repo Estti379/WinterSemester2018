@@ -14,10 +14,13 @@ public class ColorAction extends AbstractAction
         super(Name);
 
         // ADD CODE
+        T = A;
+        CC = C;
     }
 
     public void actionPerformed(ActionEvent e)
     {
         // ADD CODE
+        T.setBackground(CC);
     }
 }
